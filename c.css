@@ -1,0 +1,64 @@
+result {
+    color: hsl(14, 86%, 60%);
+    color: hsl(32, 86%, 65%);
+    color: hsl(45, 86%, 65%);
+    color: hsl(137, 86%, 65%);
+    color: hsl(168, 86%, 75%);
+    color: hsl(184, 86%, 65%);
+    color: hsl(198, 86%, 65%);
+    color: hsl(263, 86%, 75%);
+    color: hsl(316, 86%, 75%);
+    color: #eef;
+}
+
+
+* {
+    color: #fb501b;
+    color: hsl(14, 97%, 55%);
+    color: hsl(14, 86%, 65%);
+}
+* {
+    color: #f6aa51;
+    color: hsl(32, 90%, 64%);
+    color: hsl(32, 86%, 65%);
+}
+* {
+    color: #fac012;
+    color: hsl(45, 96%, 53%);
+    color: hsl(45, 86%, 65%);
+}
+* {
+    color: #83f9a4;
+    color: hsl(137, 91%, 75%);
+    color: hsl(137, 86%, 65%);
+}
+* {
+    color: #81f7e0;
+    color: hsl(168, 88%, 74%);
+    color: hsl(168, 86%, 65%);
+}
+* {
+    color: #6feef8;
+    color: hsl(184, 91%, 70%);
+    color: hsl(184, 86%, 65%);
+}
+* {
+    color: #2cb1eb;
+    color: hsl(198, 83%, 55%);
+    color: hsl(198, 86%, 65%);
+}
+* {
+    color: #b193e1;
+    color: hsl(263, 57%, 73%);
+    color: hsl(263, 86%, 65%);
+}
+* {
+    color: #ef74ce;
+    color: hsl(316, 79%, 70%);
+    color: hsl(316, 86%, 65%);
+}
+* {
+    color: #def6f8;
+    color: hsl(185, 65%, 92%);
+    color: hsl(185, 0%, 92%);
+}
