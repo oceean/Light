@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'plex';
+    src: url('ibmplex/IBMPlexSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'plexb';
+    src: url('ibmplex/IBMPlexSans-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'plexi';
+    src: url('ibmplex/IBMPlexSans-Italic.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'plexl';
+    src: url('ibmplex/IBMPlexSans-ExtraLightItalic.ttf')  format('truetype');
+}
+.plex {
+    font-family: 'plex', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plexb {
+    font-family: 'plexb', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plexi {
+    font-family: 'plexi', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plexl {
+    font-family: 'plexl', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
