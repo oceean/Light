@@ -57,5 +57,18 @@
     color: #eef;
 }
 .bg {
-    background-color: #111113
+    background-color: #000
+}
+#app {
+    margin: 0 !important;
+    width: 100vw !important;
+    overflow: hidden !important;
+}
+main {
+    padding: 0 5vw;
+}
+footer {
+    border-top: #222 solid 1px;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
 }

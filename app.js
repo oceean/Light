@@ -3,6 +3,9 @@ let app = new Vue({
     el: "#app",
     data: {
         w: appEl.offsetWidth,
-        h: appEl.offsetHeight
+        h: 250
     }
 })
+window.onresize = () => {
+    window.location.reload();
+}
