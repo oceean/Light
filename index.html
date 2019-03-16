@@ -34,16 +34,81 @@
             href="style.css">
 
     </head>
-    <body>
-        <div id="app" class="container">
-            <h1 class="title plexb">Hello neon industry</h1>
-            <h2 class="subtitle plexl">Thats not that it not about that</h2>
-            <p class="plex">{{m}}, {{m}}, {{m}}</p>
-            <span class="plexi">-500. рублей</span>
+    <body class="bg">
+        <div id="app" class="container wht">
+            <br>
+            <h1 class="title plex">Hello neon industry</h1>
+            <h2 class="subtitle plexl ">Thats not that it not about that</h2>
+            <canvas id="c" :width="w" :height="h"></canvas>
+            <div class="columns is-multiline">
+                <div class="column">
+                    <p class='plexb rd'>Red neon color</p>
+                    <p class="plex rd">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb rng'>Orange neon color</p>
+                    <p class="plex rng">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb llw'>Yellow neon color</p>
+                    <p class="plex llw">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb grn'>Green neon color</p>
+                    <p class="plex grn">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb trts'>Mint neon color</p>
+                    <p class="plex trts">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb cn'>Cyan neon color</p>
+                    <p class="plex cn">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb bl'>Blue neon color</p>
+                    <p class="plex bl">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb prpl'>Purple neon color</p>
+                    <p class="plex prpl">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb pnk'>Pink neon color</p>
+                    <p class="plex pnk">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1300. рублей</span>
+                </div>
+                <div class="column">
+                    <p class='plexb wht'>White neon color</p>
+                    <p class="plex wht">That color like a color with hue. Dont u listen to me?</p>
+                    <span class="plexi">-1000. рублей</span>
+                </div>
+            </div>
         </div>
         <script
+            type="text/javascript"
             src="https://unpkg.com/vue">
         </script>
-        <script src="script.js"></script>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-full.min.js">
+        </script>
+        <script
+            type="text/paperscript"
+            src="play_chain.p.js"
+            canvas="c">
+        </script>
+        <script
+            type="text/javascript"
+            src="app.js">
+        </script>
     </body>
 </html>

@@ -26,3 +26,36 @@
 .plexl {
     font-family: 'plexl', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.rd, .rd > * {
+    color: hsl(14, 86%, 60%);
+}
+.rng, .rng > * {
+    color: hsl(32, 86%, 65%);
+}
+.llw, .llw > * {
+    color: hsl(45, 86%, 65%);
+}
+.grn, .grn > * {
+    color: hsl(137, 86%, 65%);
+}
+.trts, .trts > * {
+    color: hsl(155, 90%, 65%);
+}
+.cn, .cn > * {
+    color: hsl(184, 86%, 65%);
+}
+.bl, .bl > * {
+    color: hsl(198, 86%, 65%);
+}
+.prpl, .prpl > * {
+    color: hsl(263, 86%, 75%);
+}
+.pnk, .pnk > * {
+    color: hsl(316, 86%, 75%);
+}
+.wht, .wht > * {
+    color: #eef;
+}
+.bg {
+    background-color: #111113
+}
