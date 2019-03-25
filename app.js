@@ -3,7 +3,7 @@ let app = new Vue({
     el: "#app",
     data: {
         w: appEl.offsetWidth,
-        h: 250
+        h: window.innerHeight,
     }
 })
 window.onresize = () => {
